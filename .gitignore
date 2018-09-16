@@ -23,7 +23,12 @@
 /dist/
 /nbdist/
 /.nb-gradle/
-# Elastic Beanstalk Files
+
+### Elastic Beanstalk Files ###
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
+!.elasticbeanstalk/config.yml
+
+### KDE ###
+.directory
